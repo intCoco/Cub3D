@@ -7,6 +7,7 @@
 <p align="center">
   <img alt="Language" src="https://img.shields.io/badge/language-C-blue"/>
   <img alt="Status" src="https://img.shields.io/badge/status-completed-success"/>
+  <img src="https://img.shields.io/badge/Grade-100%2F100-success"/>
   <img alt="42" src="https://img.shields.io/badge/school-42-black"/>
 </p>
 
@@ -17,13 +18,12 @@
 * [📖 Description](#-description)
 * [🚀 Features](#-features)
 * [🎮 Controls](#-controls)
-* [🛠 Installation](#-installation)
-* [▶️ Usage](#-usage)
+* [▶️ Installation & Usage](#-installation--usage)
 * [🧠 How It Works](#-how-it-works)
 * [📂 Project Structure](#-project-structure)
 * [🎯 Learning Objectives](#-learning-objectives)
 * [🏆 Conclusion](#-conclusion)
-* [👤 Author](#-author)
+* [👤 Authors](#-authors)
 
 ---
 
@@ -57,28 +57,24 @@ The program renders a pseudo-3D environment using a 2D map, simulating depth and
 
 ---
 
-## 🛠 Installation
+## ▶️ Installation & Usage
 
-### Requirements
-
+### Requirements:
 * GCC / Clang
 * Make
 * MiniLibX
 * Unix-based system (Linux / macOS)
 
-### Build
+### How to run the program:
+1. Build:
+	```bash
+	make
+	```
 
-```bash
-make
-```
-
----
-
-## ▶️ Usage
-
-```bash
-./cub3D maps/map.cub
-```
+2. Execute:
+	```bash
+	./cub3D tests/file.cub
+	```
 
 ---
 
@@ -100,10 +96,11 @@ This technique creates the illusion of depth and perspective, similar to early F
 
 ```
 Cub3d/
+├── minilibx		# Small C library used for rendering graphics
 ├── src/            # Source files
 ├── includes/       # Header files
 ├── textures/       # Wall textures
-├── maps/           # Map configuration files
+├── tests/          # Map configuration files
 ├── Makefile
 └── README.md
 ```
@@ -129,6 +126,6 @@ Cub3d is an introduction to graphics programming and real-time rendering. It dem
 
 ---
 
-## 👤 Author
+## 👤 Authors
 
 chuchard and nileempo – 42 Students
