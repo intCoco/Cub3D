@@ -1,6 +1,32 @@
-# Cub3d
+<h1 align="center">Cub3d</h1>
 
-🧭 A Wolfenstein-inspired 3D game built with raycasting.
+<p align="center">
+	<b>🎮 <i>A Wolfenstein-inspired 3D game built with raycasting.</i></b><br>
+</p>
+
+<p align="center">
+  <img alt="Top Language" src="https://img.shields.io/github/languages/top/intCoco/cub3d?color=success"/>
+  <img alt="Language" src="https://img.shields.io/badge/language-C-blue"/>
+  <img alt="Status" src="https://img.shields.io/badge/status-completed-success"/>
+  <img alt="42" src="https://img.shields.io/badge/school-42-black"/>
+</p>
+
+---
+
+## 📑 Table of Contents
+
+* [📖 Description](#-description)
+* [🚀 Features](#-features)
+* [🎮 Controls](#-controls)
+* [🛠 Installation](#-installation)
+* [▶️ Usage](#-usage)
+* [🧠 How It Works](#-how-it-works)
+* [📂 Project Structure](#-project-structure)
+* [🎯 Learning Objectives](#-learning-objectives)
+* [🏆 Conclusion](#-conclusion)
+* [👤 Author](#-author)
+
+---
 
 ## 📖 Description
 
